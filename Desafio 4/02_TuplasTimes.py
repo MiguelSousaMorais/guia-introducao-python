@@ -9,3 +9,8 @@ times = ('Palmeiras', 'Santos', 'Flamengo', 'Atlético', 'Internacional',
          'Atlético-PR', 'Botafogo', 'Goias', 'Corinthians', 'Grêmio',
          'Bahia', 'São Paulo', 'Ceará SC', 'Fortaleza', 'Vasco da Gama',
          'Cruzeiro', 'Fluminense', 'Chapecoence', 'CSA', 'Avaí')
+
+print('Os 5 primeiros times:', times[0:5])
+
+chapecoense_pos = times.index('Chapecoence')
+print('O time da Chapecoense está na posição', chapecoense_pos + 1)
