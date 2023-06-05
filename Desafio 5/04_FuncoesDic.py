@@ -40,6 +40,7 @@ for local in waypoints:
     if (local["name"] == "a place"):
         local["name"] = "not a real place"
         local["lon"] = -130
+        
     
 
 # YOUR CODE HERE
